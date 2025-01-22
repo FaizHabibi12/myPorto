@@ -5,6 +5,8 @@ export interface BlogPost {
     date: string;
     excerpt: string;
     content: string;
+    category: string;
+
   }
    export const blogPosts: BlogPost[] = [
     {
@@ -12,6 +14,7 @@ export interface BlogPost {
       title: "Getting Started with Next.js",
       slug: "getting-started-with-nextjs",
       date: "2024-03-15",
+      category: "website",
       excerpt: "Learn the basics of Next.js and start building your first app.",
       content: `
       Next.js is a powerful React framework that makes it easy to build server-side rendered and statically generated web applications.
@@ -30,12 +33,58 @@ export interface BlogPost {
     `
     },
  
- 
     {
       id: 2,
-      title: "CSS Tips and Tricks",
+      title: "Skibidi",
       slug: "css-tips-and-tricks",
       date: "2024-03-20",
+      category: "website",
+      excerpt: "Improve your CSS skills with these handy tips and tricks.",
+      content: `
+      CSS is gaining powers with recent web evolution. And it is very clever with tricks that were long existing or that
+      have emerged. Perhaps tricks shared here will school you with CSS tricks from the depths you were yet to explore.
+        1. Draw a triangle using border
+        2. Interchange background of an element
+        3. Center an element
+        4. Pill 💊 shape button
+        5. Easily add beautiful loading indicator to your website
+        6. Easy dark or light mode
+        7. Truncate overflowing text with an ellipsis(...)
+        8. Truncate long text to a number of lines
+        9. Stop overworking yourself writing top, right, bottom, left
+        10. Serve optimized images
+      `
+    },
+
+    {
+      id: 3,
+      title: "Ligma",
+      slug: "css-tips-and-tricks",
+      date: "2024-03-20",
+      category: "mobile",
+      excerpt: "Improve your CSS skills with these handy tips and tricks.",
+      content: `
+      CSS is gaining powers with recent web evolution. And it is very clever with tricks that were long existing or that
+      have emerged. Perhaps tricks shared here will school you with CSS tricks from the depths you were yet to explore.
+        1. Draw a triangle using border
+        2. Interchange background of an element
+        3. Center an element
+        4. Pill 💊 shape button
+        5. Easily add beautiful loading indicator to your website
+        6. Easy dark or light mode
+        7. Truncate overflowing text with an ellipsis(...)
+        8. Truncate long text to a number of lines
+        9. Stop overworking yourself writing top, right, bottom, left
+        10. Serve optimized images
+      `
+    },
+
+    {
+      id: 4,
+      title: "Balls",
+      slug: "css-tips-and-tricks",
+      date: "2024-03-20",
+      category: "mobile",
       excerpt: "Improve your CSS skills with these handy tips and tricks.",
       content: `
       CSS is gaining powers with recent web evolution. And it is very clever with tricks that were long existing or that
