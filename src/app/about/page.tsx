@@ -27,8 +27,8 @@ export default function BlogPage({ searchParams }: { searchParams: { category?: 
                 {/* Category Filter */}
                 <div className="mt-4 mb-6 flex justify-center space-x-4">
                     <Link href="about" className={`text-soft-brown ${!category ? 'font-bold' : ''}`}>All</Link>
-                    <Link href="/about?category=website" className={`text-soft-brown ${category === 'website' ? 'font-bold' : ''}`}>Web</Link>
-                    <Link href="/about?category=mobile" className={`text-soft-brown ${category === 'mobile' ? 'font-bold' : ''}`}>Mobile</Link>
+                    <Link href="/about?category=abtMe" className={`text-soft-brown ${category === 'abtMe' ? 'font-bold' : ''}`}>About me</Link>
+                    <Link href="/about?category=random" className={`text-soft-brown ${category === 'random' ? 'font-bold' : ''}`}>Random</Link>
                 </div>
 
                 <div className="grid gap-6">
